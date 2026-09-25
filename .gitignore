@@ -1,0 +1,64 @@
+# =========================================================
+# Vivado
+# =========================================================
+
+# Ignore entire Vivado project directory
+vivado/
+
+# Vivado generated files/directories anywhere else
+**/.Xil/
+**/.cache/
+**/.hw/
+**/.gen/
+**/.sim/
+**/.runs/
+**/.ip_user_files/
+
+*.xpr
+*.xpe
+*.jou
+*.log
+*.str
+*.pb
+*.rpt
+*.dcp
+
+# XSim
+*.wdb
+*.wcfg
+*.sdb
+*.xdb
+*.dbg
+*.rlx
+*.rtti
+*.svtype
+*.xdbg
+*.xsim
+*.xsim.dir/
+
+# FPGA generated files
+*.bit
+*.bin
+*.ltx
+*.mcs
+*.prm
+
+# =========================================================
+# Editor / OS
+# =========================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================================================
+# Python
+# =========================================================
+
+__pycache__/
+*.pyc
+# Python virtual environments
+.venv/
+python/.venv/
